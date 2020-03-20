@@ -1,6 +1,6 @@
 # truffle-console-buffer-error
 
-This package illustrates an issue in the truffle console (or possibly the hdwallet-provider).
+This package illustrates an issue in the truffle console (or possibly the hdwallet-provider) on Node versions 12.0.0 and higher.
 
 If there is a compiled contract (or library) named exactly `Buffer`, truffle console fails to
 connect to testnets, at least through an Infura node.  The issue can be worked around by simply
