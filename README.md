@@ -7,8 +7,8 @@ connect to testnets, at least through an Infura node.  The issue can be worked a
 renaming the contract (not the contract file) to something else.
 
 Perhaps the name `Buffer` is colliding with or shadowing something
-in Node's repl or elsewhere?  I have tested this on Node 13 on both Windows and Ubuntu, getting the same error
-in both.  I have not yet tried older versions of Node.
+in Node's repl or elsewhere?  I have tested this on various Node versions from 8 to 13, on both Windows and Ubuntu.
+It appears that Node versions 12.0.0 and higher have the error, whereas versions 11.15.0 and lower work OK.
 
 I found this issue while developing a contract that imports the `provableAPI_0.6.sol` contract 
 in the `solidity_0.6` branch of `https://github.com/provable-things/ethereum-api`.  This contract includes a library named `Buffer`.
