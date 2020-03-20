@@ -1,0 +1,16 @@
+{
+  "name": "truffle-console-buffer-error",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "truffle compile --all --network rinkeby && truffle console --network rinkeby"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffee-converter/truffle-console-buffer-error.git"
+  },
+  "author": "coffee.becomes.code@gmail.com",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.33",
+    "truffle": "^5.1.18"
+  }
+}
